@@ -28,7 +28,8 @@ class List extends React.Component {
     return (
       <div className="col-6 mx-auto">
        
-        <p className="h2"{this.props.title}/p>
+        <p className="h2">{this.props.title}</p>
+      
         <form onSubmit={this.handleSubmit}>
           <label>
             <input
